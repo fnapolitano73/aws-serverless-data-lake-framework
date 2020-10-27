@@ -52,7 +52,7 @@ Parameters:
   pStageBucket:
     Type: String
   pSNSNotificationsEmail:
-    Type: CommaDelimitedList
+    Type: String
   pTeamName:
     Type: String
   pTransformValidateRoleArn:
