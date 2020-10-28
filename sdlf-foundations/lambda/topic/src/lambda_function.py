@@ -327,7 +327,7 @@ def lambda_handler(event, context):
     :param event: The event given to this Lambda function
     :param context: Context object containing Lambda metadata
     """
-
+    logger.info(event)
     request_type = event['RequestType']
 
     try:
